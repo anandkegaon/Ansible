@@ -7,3 +7,9 @@ Basically if any updates are available the it will send that updates to all the 
 all servers private ip is mentioned in the Inventry folder of ansible server with those server only it will communicate .
 we can create the group of server and to that group we call as children in the hosts file.
 
+Ansible is written in python so we need python in system to install ansible.
+
+    sudo apt install -y python3-pip
+    sudo pip install ansible
+    ansible --version
+
