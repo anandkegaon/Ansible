@@ -38,6 +38,8 @@ ansible-playbook --skip-tags '!file_server' playbook.yml
   tasks:
     - name: Run command
       command: echo hello
+
+      
 8)You can use the copy module to copy a file from your local machine to all of the servers in your inventory.
          
 - name: Copy file
@@ -48,6 +50,8 @@ ansible-playbook --skip-tags '!file_server' playbook.yml
         src: /path/to/local/file
         dest: /path/on/remote/server
 
+      
+
 9)You can use the package module to install a package on all of the servers in your inventory using the package manager for the target operating system.
 
 - name: Install package
@@ -56,6 +60,9 @@ ansible-playbook --skip-tags '!file_server' playbook.yml
     - name: Install package
       package:
         name: nginx
+
+
+      
 10)You can use the user module to create a user on all of the servers in your inventory.
 
 - name: Create user
