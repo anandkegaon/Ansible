@@ -2,7 +2,7 @@ In Ubuntu Server Use below mentioned command to install the ansible :
 
       
     sudo apt-get update
-    sudo apt- install software-properties-common -y
+    sudo apt-get install software-properties-common -y
     sudo apt-add-repository ppa:ansible/ansible
     sudo apt update
     sudo apt install ansible -y
