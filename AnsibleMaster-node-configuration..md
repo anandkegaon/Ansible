@@ -17,3 +17,9 @@ on hosts // install only python on host system (nodes) //
 generate the ssh key in master and copy paste that key in slave node under.ssh/authorized_keys
 
 command: sudo nano .ssh/authorized_keys
+
+Ansible ping command
+
+
+    ansible all  -i invent -m ping -u ubuntu
+
