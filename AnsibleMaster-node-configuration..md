@@ -11,7 +11,7 @@ In Ubuntu Server Use below mentioned command to install the ansible :
 on hosts // install only python on host system (nodes) //
 
      sudo apt-get update
-    sudo apt-get install python2 -y
+    sudo apt-get install python3 -y
 
 
 generate the ssh key in master and copy paste that key in slave node under.ssh/authorized_keys
