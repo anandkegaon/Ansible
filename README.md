@@ -10,6 +10,6 @@ we can create the group of server and to that group we call as children in the h
 Ansible is written in python so we need python in system to install ansible.
 
     sudo apt install -y python3-pip
-    sudo pip install ansible
+    sudo apt install ansible-core
     ansible --version
 
