@@ -14,3 +14,7 @@
         state: started
         enabled: true
 ~                     
+
+
+If we wanted to check the yml file is correct or not we can user below command.
+ansible-playbook --syntax-check <filenam>.yml ex. nginx.tml
